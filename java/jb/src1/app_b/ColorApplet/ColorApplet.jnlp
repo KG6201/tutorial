@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp>
+	<information>
+        <title>ColorApplet</title>
+        <vendor>Hiroshi Yuki</vendor>
+    </information>
+	<update check="background" />
+    <resources>
+        <java version="1.7+" />
+        <jar href="ColorApplet.jar" main="true" />
+    </resources>
+    <applet-desc
+    	main-class="ColorApplet"
+    	name="Drawing colored circles."
+    	width="400" height="400">
+	</applet-desc>
+</jnlp>

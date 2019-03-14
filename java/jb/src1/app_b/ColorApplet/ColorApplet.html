@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ColorApplet</title>
+    </head>
+    <body style="background-color:lightgrey">
+        <h1>ColorApplet</h1>
+        <noscript>JavaScript is disabled.</noscript>
+        <script src="http://www.java.com/js/deployJava.js"></script>
+        <script>
+            var attributes = {
+                code: "ColorApplet.class",
+                archive: "ColorApplet.jar",
+                width: "400",
+                height: "400"
+            };
+            var parameters = {
+                jnlp_href: "ColorApplet.jnlp"
+            };
+            deployJava.runApplet(attributes, parameters, '1.7');
+        </script>
+    </body>
+</html>

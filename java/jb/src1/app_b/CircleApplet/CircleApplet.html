@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CircleApplet</title>
+    </head>
+    <body style="background-color:lightgrey">
+        <h1>CircleApplet</h1>
+        <hr />
+        <noscript>JavaScript is disabled.</noscript>
+        <script src="http://www.java.com/js/deployJava.js"></script>
+        <script>
+            var attributes = {
+                code: "CircleApplet.class",
+                archive: "CircleApplet.jar"
+            };
+            var parameters = {
+                jnlp_href: "CircleApplet.jnlp",
+                radius: "10",
+                interval: "10"
+            };
+            deployJava.runApplet(attributes, parameters, '1.7');
+        </script>
+        <hr />
+    </body>
+</html>

@@ -1,0 +1,4 @@
+abc
+12345
+This is Japan.
+私は結城です。
